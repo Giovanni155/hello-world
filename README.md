@@ -88,3 +88,20 @@ Want to add even more code and fun styles to your GitHub Pages website? [Follow 
 ## Everything you need to know about GitHub
 
 Getting started is the hardest part. If there’s anything you’d like to know as you get started with GitHub, try searching [GitHub Help](https://help.github.com). Our documentation has tutorials on everything from changing your repository settings to configuring GitHub from your command line.
+
+## Terminal Task Manager
+
+This repository includes a simple offline task manager that runs in the terminal using Python and SQLite. The program is organized into modules inside the `terminal_app` directory.
+
+### Usage
+
+1. Ensure you have Python 3 installed.
+2. Run the program:
+
+```bash
+python -m terminal_app.app
+```
+
+3. Use the on-screen menu to add categories and tasks, list them, and mark tasks as completed.
+
+All dates are automatically recorded when items are created or updated.
